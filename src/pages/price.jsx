@@ -1,7 +1,8 @@
 import React from 'react'
+import Pagenav from '../comp/pagenav'
 
 export default function Price() {
   return (
-    <div>price <pagenav/></div>
+    <div>price <Pagenav/></div>
   )
 }

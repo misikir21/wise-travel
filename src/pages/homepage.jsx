@@ -1,8 +1,8 @@
-import pagenav from '../comp/pagenav'
+import Pagenav from "../comp/pagenav"
 export default function Homepage() {
   return (
     <div>
-        <pagenav/>
+        <Pagenav/>
         <h1>worldwise spa</h1>
        
     </div>
