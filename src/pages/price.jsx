@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function price() {
+export default function Price() {
   return (
     <div>price</div>
   )
