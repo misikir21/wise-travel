@@ -1,7 +1,10 @@
-import React from 'react'
-
+import pagenav from '../comp/pagenav'
 export default function Homepage() {
   return (
-    <div>homepage</div>
+    <div>
+        <pagenav/>
+        <h1>worldwise spa</h1>
+       
+    </div>
   )
 }
