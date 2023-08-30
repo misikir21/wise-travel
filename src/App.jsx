@@ -11,7 +11,7 @@ export default function App() {
     <Route path='/' element={<Homepage/>}/>
     <Route path="Product" element={<Product/>} />
     <Route path="Price" element={<Pricing/>}/>
-    <Route path="applications" element={<AppLayout/>}/>
+    <Route path="app" element={<AppLayout/>}/>
     <Route path="login" element={<Login/>}/>
     <Route path="*" element={<Pagenotfound/>}/>
   </Routes>

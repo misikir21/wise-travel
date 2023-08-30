@@ -12,7 +12,7 @@ export default function Sidebar() {
         <p>list of cites you visted</p>
         <footer className={styles.footer}>
             <p className={styles.copyright}>
-                &copy;Copyright
+                &copy;Copyright{new Date().getFullYear()}By misikir teka
             </p>
 
         </footer>

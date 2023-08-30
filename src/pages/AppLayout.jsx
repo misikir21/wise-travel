@@ -3,7 +3,7 @@ import Sidebar from"../../src/pages/Sidebar"
 
 export default function AppLayout() {
   return (
-    <div>AppLayout page with map
+    <div>
         <Sidebar/>
     </div>
   )
