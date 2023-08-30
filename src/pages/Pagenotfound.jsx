@@ -1,5 +1,5 @@
 import React from 'react'
-import Pagenav from '../comp/pagenav'
+import Pagenav from '../comp/Pagenav'
 
 export default function Pagenotfound() {
   return (
