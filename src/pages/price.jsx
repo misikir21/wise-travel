@@ -1,11 +1,9 @@
-// Uses the same styles as Pricing
-import Pagenav from "../comp/Pagenav";
+// Uses the same styles as Product
 import styles from "./Product.module.css";
-
-export default function Pricing() {
+import Pagenav from "../comp/Pagenav";
+export default function Product() {
   return (
     <main className={styles.product}>
-      <Pagenav/>
       <section>
         <div>
           <h2>

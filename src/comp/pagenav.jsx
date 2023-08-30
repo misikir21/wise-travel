@@ -8,10 +8,10 @@ export default function Pagenav() {
     <ul>
     
     <li>
-        <NavLink to="/Price">Price</NavLink>
+        <NavLink to="/Pricing">Pricing</NavLink>
         </li>
         <li>
-        <NavLink to="/product">product</NavLink>
+        <NavLink to="/Product">Product</NavLink>
         </li>
        <li>
         <NavLink to="/login">Login</NavLink>

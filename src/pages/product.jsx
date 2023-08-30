@@ -4,7 +4,7 @@ import Pagenav from "../comp/Pagenav";
 export default function Product() {
   return (
     <main className={styles.product}>
-      <Pagenav/>
+      <Pagenav />
       <section>
         <img
           src="img-1.jpg"
