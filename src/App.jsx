@@ -5,6 +5,7 @@ import Homepage from './pages/homepage';
 import Login from './pages/Login';
 import Pagenotfound from './pages/Pagenotfound';
 import AppLayout from './pages/AppLayout';
+import Sidebar from './pages/Sidebar';
 export default function App() {
   return <BrowserRouter>
   <Routes>
@@ -13,6 +14,7 @@ export default function App() {
     <Route path="Price" element={<Pricing/>}/>
     <Route path="app" element={<AppLayout/>}/>
     <Route path="login" element={<Login/>}/>
+    <Route path="apps" element={<Sidebar/>}/>
     <Route path="*" element={<Pagenotfound/>}/>
   </Routes>
   </BrowserRouter>
