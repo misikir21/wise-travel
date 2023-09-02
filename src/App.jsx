@@ -5,6 +5,7 @@ import Homepage from './pages/homepage';
 import Login from './pages/Login';
 import Pagenotfound from './pages/Pagenotfound';
 import AppLayout from './pages/AppLayout';
+import CityList from './pages/CityList';
 export default function App() {
   return <BrowserRouter>
   <Routes>
@@ -12,7 +13,8 @@ export default function App() {
     <Route path="Product" element={<Product/>} />
     <Route path="Price" element={<Pricing/>}/>
     <Route path="app" element={<AppLayout/>}>
-    <Route path='cities' element={<p>list of cites you visited</p>}/>
+    <Route index element={<CityList/>}/>
+    <Route path='cities' element={<CityList/>}/>
     <Route path='country' element={<p>list of country you visited</p>}/>
     <Route path='form' element={<p>form</p>}/>
     
