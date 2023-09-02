@@ -1,8 +1,9 @@
 import Sidebar from"./Sidebar"
+import styles from './AppLayout.module.css'
 
 export default function AppLayout() {
   return (
-    <div>s
+    <div className={styles.app}>
         <Sidebar/>
     </div>
   )
