@@ -1,3 +1,4 @@
+import React from 'react';
 import { BrowserRouter, Routes,Route } from 'react-router-dom';
 import Product from './pages/Product';
 import Pricing from './pages/Pricing';
@@ -9,7 +10,7 @@ import CityList from './pages/CityList';
 const baseurl="http://localhost:9000"
 import { useEffect, useState } from 'react';
 export default function App() {
-  const [cites,setcites]=useState({});
+  const [cites,setcites]=useState([]);
   const [isloading,setisloading]=useState(false)
   useEffect(
     function(){
@@ -36,8 +37,8 @@ export default function App() {
     <Route path="Product" element={<Product/>} />
     <Route path="Price" element={<Pricing/>}/>
     <Route path="app" element={<AppLayout/>}>
-    <Route index element={<CityList/>}/>
-    <Route path='cities' element={<CityList/>}/>
+    <Route index element={<CityList cities={cites} isloading={isloading}/>}/>
+    <Route path='cities' element={<CityList cities={cites} isloading={isloading}/>}/>
     <Route path='country' element={<p>list of country you visited</p>}/>
     <Route path='form' element={<p>form</p>}/>
     
