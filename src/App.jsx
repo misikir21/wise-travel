@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter, Routes,Route } from 'react-router-dom';
 import Product from './pages/Product';
 import Pricing from './pages/Pricing';
