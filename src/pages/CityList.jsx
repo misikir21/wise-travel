@@ -1,3 +1,4 @@
+import React from 'react'
 import styles from './CityList.module.css'
 import Spinner from './Spinner'
 import Cityitem from './Cityitem'
